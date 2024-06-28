@@ -54,17 +54,17 @@ export function Networks(){
             value={facebook}
             onChange={(e) => setFacebook(e.target.value)}
             />
-             <label className="text-white font-medium mt-2 mb-2 ">Link do Facebook</label>
+             <label className="text-white font-medium mt-2 mb-2 ">Link do Instagram </label>
             <Input
             type="url"
-            placeholder= "Digite a url do facebook..."
+            placeholder= "Digite a url do instagram..."
             value={instagram}
             onChange={(e) => setInstagram(e.target.value)}
             />
-             <label className="text-white font-medium mt-2 mb-2 ">Link do Facebook</label>
+             <label className="text-white font-medium mt-2 mb-2 ">Link do youtube</label>
             <Input
             type="url"
-            placeholder= "Digite a url do facebook..."
+            placeholder= "Digite a url do youtube..."
             value={youtube}
             onChange={(e) => setYoutube(e.target.value)}
             />
