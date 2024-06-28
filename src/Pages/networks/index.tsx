@@ -58,14 +58,14 @@ export function Networks(){
             <Input
             type="url"
             placeholder= "Digite a url do instagram..."
-            value={instagram}
+            value={youtube}
             onChange={(e) => setInstagram(e.target.value)}
             />
              <label className="text-white font-medium mt-2 mb-2 ">Link do youtube</label>
             <Input
             type="url"
             placeholder= "Digite a url do youtube..."
-            value={youtube}
+            value={instagram}
             onChange={(e) => setYoutube(e.target.value)}
             />
             <button 
