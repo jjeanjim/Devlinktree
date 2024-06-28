@@ -2,7 +2,7 @@ import { InputHTMLAttributes } from "react";
 
 
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement>{}
+interface InputProps extends InputHTMLAttributes<HTMLInputElement>{}// extends das propriedades input props:{CHILDREN} com spread operator...
 
 
 
